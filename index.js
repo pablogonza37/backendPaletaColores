@@ -5,7 +5,7 @@ import morgan from "morgan";
 import {fileURLToPath} from 'url';
 import path from 'path';
 import "./src/database/database.js";
-import coloresRouter from "./src/routes/paletaColores.routes.js";
+import coloresRouter from "./src/routes/colores.routes.js";
 
 
 const app = express();

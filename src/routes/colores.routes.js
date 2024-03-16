@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { borrarColor, crearColor, editarColor, listarColores, obtenerColor } from "../controllers/paletaColores.controllers.js";
+import { borrarColor, crearColor, editarColor, listarColores, obtenerColor } from "../controllers/colores.controllers.js";
 
 const router = Router();
 
