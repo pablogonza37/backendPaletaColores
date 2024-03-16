@@ -9,7 +9,7 @@
     "dev": "nodemon --exec node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pablo Gonzalez",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
