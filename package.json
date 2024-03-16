@@ -1,12 +1,17 @@
 {
   "name": "backendpaletacolores",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend de la paleta de colores",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon --exec node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
